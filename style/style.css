@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    max-width: 1200px;
+    height: inherit;
+    margin-left:  auto;
+    margin-right: auto;
+}
+
+
+
+
+
+.header {
+    background-color: #31b5aa;
+    height: 80px; 
+    
+}
+.header h1 {
+    text-align: center;
+    font-style: oblique;
+    font-size: 40px;
+    display: inline-block;
+    
+}
+.logo {
+    text-align: center;
+}
+
+.nav {
+    position: sticky;
+    top: 0;
+    height: 50px;
+    background-color: #349485 ;
+    padding-top: 10px;
+    text-align: center;
+}
+.nav a{
+    display: inline-block;
+    text-decoration: none;
+    margin: 0px 30px 0px 30px;
+    font-size: 20px;
+    /* border: 3px solid #205739;
+    border-radius: 15%; */
+    color: aqua;
+    padding: 8px 15px;
+    min-width: 100px;
+    transition: 0.3s;
+    font-style: oblique;
+}
+.nav a:hover{
+background-color: rgb(0, 0, 0);
+color: white;
+border-radius: 50%;
+}
+.content {
+    
+    height: 500px;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+
+
+
+.overlay video {
+    position: absolute;
+   
+   left: 0;
+    width: 100% ;
+    height: 500px;
+    object-fit: cover;
+    z-index: -1;
+    overflow: hidden;
+    
+} 
+
+.content .wrapper{
+    text-align: center;
+
+}
+.content .wrapper .item {
+    margin-top: 40px ;
+    
+}
+.item {
+    margin: 0 20px;
+display: inline-block; 
+text-align: center;  
+background-color: rgb(114, 170, 154, 0.5);
+border-radius: 20%; 
+padding: 10px 0;
+width: 300px;
+
+
+
+}
+
+.item a {
+    padding: 5px 20px;
+    color: white;
+    text-decoration: none;
+    border: solid 3px #ba4136 ;
+    border-radius: 30px;
+    font-style: oblique;
+    
+
+}
+.item a:hover{
+transition: 0.7s;
+color: white;
+background-color: black;
+
+}
+.item img{
+    padding: 20px 0;
+}
+.item p{
+color: white;
+padding-top: 20px;
+padding-bottom: 40px;
+font-style: oblique;
+
+
+}
+.item h2{
+    font-style: oblique;
+
+
+}
+
+.overlay {
+    height:inherit;
+    display: inline;
+    
+    
+}
+.parag {
+    color: whitesmoke;
+    margin-top: 30px;
+    font-style: oblique;
+}
+.nextwrapper {
+    height: inherit;
+    overflow: auto;
+    
+}
+
+.connect {
+    background-image: url("../image/excavator.jpg") ;
+    
+    height: 500px;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    
+    
+    
+    
+    
+    
+}
+.connect .wrapper{
+    background-color: rgba(0, 0, 0, 0.5);
+    
+    
+}
+.about ul{
+    font-size: 14px;
+    display: inline-block;
+    color: white;
+}
+.about{
+    font-style: oblique;
+}
+.about p {
+    color: white;
+}
+.footer {
+    height: 40px;
+    background-color: #349485 ;
+    
+}
+.whole  p{
+    padding: 10px;
+    float: left;
+
+}
+.whole a{ 
+    float: right;
+    margin: 5px 10px;
+}
+.products {
+    margin: 0 20px;
+    display: inline-block; 
+    text-align: center;  
+   height: inherit;
+   overflow: auto ;
+    width: 400px;
+
+    
+    
+}
+.products h2{
+    color: rgb(161, 166, 172);
+}
+.products p{
+    color: rgb(161, 166, 172);
+}
+.products label  {
+    display: block;
+    padding-top: 10px;
+    color: white;
+    margin-top: 40px;
+    margin-right: 350px;
+    
+}
+.products input{
+    float: left;
+    background-color: #349485;
+    position: fill;
+    display: inline-block;
+    padding: 0 60px 0 0;
+    
+}
+::placeholder{
+    color: white;
+}
+.products option{
+    background-color: #349485;
+    
+}
+.products select{
+    background-color: #349485;
+    color: white;
+    float: left;
+    padding-right: 60px;
+}
+.products textarea{
+    height: 100px;
+    width: 250px;
+   border-radius: 0 30px 0 30px;
+    background-color: #349485;
+    color: white;
+    columns: 20;
+    row-gap: 20;
+    float: left;
+    border-color: transparent;
+    margin-left: 2px;
+    
+}
+.products button{
+    background-color: #349485;
+    color: white;
+    margin-top: 40px;
+    margin-right: 290px;
+    padding: 10px 20px;
+    border-radius: 0 30px 0 30px;
+    
+}.products a{
+ text-decoration: none;
+ color: white;
+}
+::-webkit-scrollbar{
+    position: absolute;
+}
+.servises {
+    font-style: oblique;
+}
+.servises ul{
+    display: inline-block;
+    
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 18px;
+    margin-top: 40px;
+    
+}
+.servises li{
+padding: 5px 0;
+}
+.servises a{
+    text-decoration: none;
+    color: white;
+    font-style: oblique;
+
+}
+.servises button{
+    background-color: #349485;
+    color: white;
+    margin-top: 40px;
+    margin-right: 790px;
+    margin-left: 750px;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 25%;
+    
+    
+}
+.contacts {
+    background-color: rgb(114, 170, 154, 0.5);
+    width: 400px;
+    height: 125px;
+    border-radius: 20px;
+    margin-left:  auto;
+margin-right: auto;
+margin-top: 10px;
+}
+.contacts a{
+    text-decoration: none;
+    color: black;
+}
+.contacts ul{
+    font-style: oblique;
+    margin-right: 50px;
+    display: inline-block
+    
+    
+}
+.contacts p{
+    color:;
+    font-size: 30px
+}
+.almostlast{
+    color: white;
+    font-style: oblique;
+    font-size: 25px;
+    margin-top: 100px;
+}
+.lastproblem{
+    padding-top: 30px;
+    
+}
+.lastproblem h2{
+    font-style: oblique;
+}
