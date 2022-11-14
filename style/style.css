@@ -57,13 +57,10 @@ border-radius: 50%;
 }
 .content {
     
-    
-    background-image: url("../image/excavator.jpg") ;
-    
     height: 500px;
     background-repeat: no-repeat ;
     background-size: cover;
-    
+    background-color: rgba(0, 0, 0, 0.5);
     
 }
 
@@ -153,17 +150,23 @@ font-style: oblique;
 }
 
 .connect {
-   
+    background-image: url("../image/excavator.jpg") ;
     
     height: 500px;
     background-repeat: no-repeat ;
     background-size: cover;
-    background-color: rgba(0, 0, 0, 0.5);
+    
+    
+    
     
     
     
 }
-
+.connect .wrapper{
+    background-color: rgba(0, 0, 0, 0.5);
+    
+    
+}
 .about ul{
     font-size: 14px;
     display: inline-block;
